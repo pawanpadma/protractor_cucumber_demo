@@ -1,0 +1,71 @@
+[
+  {
+    "description": "    In order to login to the application  \n    As a User  \n    I need to enter the Valid username and Password  ",
+    "elements": [
+      {
+        "description": "",
+        "id": "login;in-order-to-login-to-the-angular-app",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "In order to login to the angular app",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "user navigates to the angular app website",
+            "match": {
+              "location": "steps\\home.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "user enters the Vaid username and password",
+            "match": {
+              "location": "steps\\home.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "user should be successfully loggedin to the application",
+            "match": {
+              "location": "steps\\home.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login",
+    "tags": [],
+    "uri": "features\\demo.feature"
+  }
+]

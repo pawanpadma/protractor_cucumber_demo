@@ -1,0 +1,23 @@
+{
+  "name": "protractor_framework",
+  "version": "1.0.0",
+  "description": "automation of angluar appliation",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor conf.js || echo ignore test failure for nonzero",
+    "report": "node index.js"
+  },
+  "author": "sonali",
+  "license": "ISC",
+  "dependencies": {
+    "protractor": "^7.0.0",
+    "protractor-cucumber-framework": "^8.2.1"
+  },
+  "devDependencies": {
+   
+    "chai": "^4.3.4",
+    "cucumber": "^7.0.0-rc.0",
+    "cucumber-html-reporter": "^5.4.0",
+    "npm-run-all": "^4.1.5"
+  }
+}
